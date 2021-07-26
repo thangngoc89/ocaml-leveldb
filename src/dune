@@ -3,12 +3,12 @@
  (wrapped false)
  (foreign_stubs
   (language cxx)
-  (flags (:standard -std=gnu++11 (:include flags.sexp))
+  (flags (:standard -std=gnu++11))
   (names leveldb_stubs))
  (flags
-  :standard
+  (:standard
   -ccopt -lleveldb
-  (:include flags.sexp))
+  (:include flags.sexp)))
  (libraries threads))
 
 (rule

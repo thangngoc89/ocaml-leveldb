@@ -11,7 +11,6 @@ bug-reports: "https://github.com/mfp/ocaml-leveldb/issues"
 depends: [
   "ocaml" {>= "4.06"}
   "dune" {>= "2.0"}
-  "dune-configurator"
   "ounit2" {with-test}
   "odoc" {with-doc}
   "conf-leveldb" {>= "2.0"}

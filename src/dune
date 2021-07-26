@@ -3,7 +3,7 @@
  (wrapped false)
  (foreign_stubs
   (language cxx)
-  (flags (:standard -std=gnu++11))
+  (flags (:standard -lleveldb -std=gnu++11))
   (names leveldb_stubs))
  (flags
   :standard

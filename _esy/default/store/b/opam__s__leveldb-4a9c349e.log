@@ -1,0 +1,8 @@
+# esy-build-package: building: @opam/leveldb@link:./leveldb.opam
+# esy-build-package: pwd: /Users/khoa/dev/ocaml-leveldb/_esy/default/store/b/opam__s__leveldb-4a9c349e
+# esy-build-package: running: 'dune' 'build' '-p' 'leveldb' '-j' '4' '@install'
+  ocamlmklib src/dllleveldb_stubs.so,src/libleveldb_stubs.a
+Unknown option -std=gnu++11
+# esy-build-package: installing using built-in installer
+# esy-build-package: rewriting prefix: /Users/khoa/dev/ocaml-leveldb/_esy/default/store/s/opam__s__leveldb-4a9c349e -> /Users/khoa/dev/ocaml-leveldb/_esy/default/store/i/opam__s__leveldb-4a9c349e
+# esy-build-package: committing: /Users/khoa/dev/ocaml-leveldb/_esy/default/store/s/opam__s__leveldb-4a9c349e -> /Users/khoa/dev/ocaml-leveldb/_esy/default/store/i/opam__s__leveldb-4a9c349e

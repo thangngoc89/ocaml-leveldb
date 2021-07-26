@@ -5,12 +5,5 @@
   (language cxx)
   (flags (:standard -std=gnu++11))
   (names leveldb_stubs))
- (flags
-  :standard
-  (:include flags.sexp))
+  (c_library_flags -lleveldb -std=gnu++11)
  (libraries threads))
-
-(rule
- (targets flags.sexp)
- (action
-  (run ./config/discover.exe)))

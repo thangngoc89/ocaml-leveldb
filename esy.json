@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@opam/leveldb": "*",
+    "ocaml": "4.12.0"
+  },
+  "resolutions": {
+    "@opam/leveldb": "link:./leveldb.opam",
+    "@opam/conf-leveldb": "thangngoc89/conf-leveldb:opam#12680bb"
+  },
+  "devDependencies": {
+    "@opam/alcotest": "1.4.0",
+    "@opam/ocamlformat": "0.18.0",
+    "@opam/ocaml-lsp-server": "1.7.0",
+    "@opam/yojson": "1.7.0"
+  }
+}
